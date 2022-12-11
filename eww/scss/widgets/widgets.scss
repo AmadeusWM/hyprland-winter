@@ -1,7 +1,7 @@
 /** EWW.SCSS
 Created by saimoom **/
 /** General **/
-.bar_class { 
+.bar_class {
     background-color: $background-bar;
     border-radius: 12px;
     margin: 10px 15px 15px 15px;
@@ -79,14 +79,14 @@ tooltip label {
 }
 
 .brightbar trough highlight {
-    // background-image: linear-gradient(to right, $primary 30%, $blue 50%, $primary 100% *50);
-    background-color: $primary;
+    background-image: linear-gradient(to right, $primary 30%, $white 50%, $primary 100% *50);
+    // background-color: $primary;
     border-radius: 10px;
 }
 
 .volbar trough highlight {
-    // background-image: linear-gradient(to right, $secondary 30%, $purple 50%, $secondary 100% *50);
-    background-color: $secondary;
+    background-image: linear-gradient(to right, $secondary 30%, $white 50%, $secondary 100% *50);
+    // background-color: $secondary;
     border-radius: 10px;
 }
 
@@ -208,7 +208,7 @@ tooltip label {
 .06,
 .07,
 .08,
-.09, 
+.09,
 .010 {
     color: $white;
 }

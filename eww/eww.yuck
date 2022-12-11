@@ -461,7 +461,7 @@
           :class "sys_text_bat_sub"
           :limit-width 22
         :wrap false)
-        (label :text {EWW_BATTERY["BAT0"].status}
+        (label :text "${EWW_BATTERY["BAT0"].status}"
           :halign "start"
           :class "sys_text_bat_sub"
           :limit-width 22
