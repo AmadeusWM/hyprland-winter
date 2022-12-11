@@ -79,12 +79,14 @@ tooltip label {
 }
 
 .brightbar trough highlight {
-    background-image: linear-gradient(to right, $yellow 30%, $white 50%, $yellow 100% *50);
+    // background-image: linear-gradient(to right, $primary 30%, $blue 50%, $primary 100% *50);
+    background-color: $primary;
     border-radius: 10px;
 }
 
 .volbar trough highlight {
-    background-image: linear-gradient(to right, $teal 30%, $green 50%, $teal 100% *50);
+    // background-image: linear-gradient(to right, $secondary 30%, $purple 50%, $secondary 100% *50);
+    background-color: $secondary;
     border-radius: 10px;
 }
 
@@ -250,26 +252,26 @@ tooltip label {
 }
 
 calender {
-    color: $red;
+    color: $primary;
 }
 
 calendar:selected {
-    color: $red;
+    color: $primary;
 }
 
 calendar.header {
     font-family: JetBrainsMono Nerd Font;
-    color: $purple;
+    color: $secondary;
     font-weight: bold;
 }
 
 calendar.button {
-    color: $purple;
+    color: $secondary;
     font-weight: bold;
 }
 
 calendar.highlight {
-    color: $red;
+    color: $primary;
     font-weight: bold;
 }
 
@@ -311,25 +313,25 @@ calendar:indeterminate {
 }
 
 .sys_bat {
-    color: $green;
+    color: $primary;
     background-color: $widget-background;
     border-radius: 10px;
 }
 
 .sys_mem {
-    color: $orange;
+    color: $secondary;
     background-color: $widget-background;
     border-radius: 10px;
 }
 
 .sys_icon_bat,
 .sys_text_bat {
-    color: $green;
+    color: $primary;
 }
 
 .sys_icon_mem,
 .sys_text_mem {
-    color: $orange;
+    color: $secondary;
 }
 
 .sys_bat_box {
