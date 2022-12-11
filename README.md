@@ -1,0 +1,2 @@
+# Winter Theme For Hyprland
+Install the main dotfiles ([dotfiles-hyprland](https://github.com/AmadeusWM/dotfiles-hyprland)), and add this theme to the `themes` folder. Then rename it to `winter` for everything to work.
