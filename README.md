@@ -1,6 +1,6 @@
 # Winter Theme For Hyprland
 ![](assets/image1.png)
-![](assets/image2.png)
+![](assets/image_2.png)
 ![](assets/image3.png)
 ![](assets/image4.png)
 # Instructions
